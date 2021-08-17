@@ -17,4 +17,7 @@ Both Dockerfiles require `mvn package` to be ran first
 1. `docker run -p 8080:8080 <YOUR_IMAGE_NAME_GOES_HERE>`
 
 ### Better Docker
+1. `mkdir -p target/dependency && (cd target/dependency; jar -xf ../*.jar)`
+    > See `Dependency` reference in Dockerfile-better
 1. `docker build -t <YOUR_IMAGE_NAME_CHOICE> -f Docker/Dockerfile-better .`
+2. `docker run -p 8080:8080 <YOUR_IMAGE_NAME_GOES_HERE>`
