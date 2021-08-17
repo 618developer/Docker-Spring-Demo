@@ -1,5 +1,6 @@
 # Docker-Spring-Demo
 A simple spring boot api hello world running in docker for Java 1.8
+> https://spring.io/guides/gs/spring-boot-docker/
 
 # Run Locally
 mvn spring-boot:run
