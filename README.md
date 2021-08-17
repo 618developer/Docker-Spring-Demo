@@ -1,5 +1,5 @@
 # Docker-Spring-Demo
-A simple spring boot api hello world running in docker for Java 1.8
+A simple spring boot api hello world running in docker for Java 1.8. The class with all the action is in the Controllers dir, Printing.java.  The other directories and classes are there for instructional purpose of showing a "cleaner" architecture for a simple rest api app. They can be ignored for now.
 > https://spring.io/guides/gs/spring-boot-docker/
 
 # Run Locally
